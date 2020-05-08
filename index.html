@@ -8,63 +8,27 @@
       name="viewport"
     />
 
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-      #nestedGrid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    border: 3px solid white;
-    grid-gap: 25px;
-}
-
-.photoBox{
-    width: 250px;
-    height: 150px;
-    border: 1px solid red;
-    background: skyblue;
-}
-
-#one{
-  background-image: url('images/waterfall.jpg');
-  background-size: contain;
-}
-
-#two{
-  background-image: url('images/still-water.jpg');
-  background-size: contain;
-}
-#three{
-  background-image: url('images/light.jpg');
-  background-size: contain;
-}
-#four{
-  background-image: url('images/night.jpg');
-  background-size: contain;
-}
-    </style>
-
+    <link rel="stylesheet" href="main.css">
+    
   </head>
 
   <body>
-<div class="container">
-   <div class="header box">
-       <h1>The beauty of Nature Brings us all home</h1>
-   </div>
-   <div class="sidebar box"><h1>Blog Posts</h1><a href="post.html">Most Recent Post</a></div>
-   <div class="content box">
-     <div id="nestedGrid">
-       <div id="one" class="photoBox">
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-logo"><a href="#">My Blog App</a></li>
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+        <li class="nav-item"><a href="#">Sample</a></li>
+        <li class="nav-item"><a href="#">Sample</a></li>
+        <li class="nav-item"><a href="#">Sample</a></li>
 
-       </div>
-       <div id="two" class="photoBox"></div>
-       <div id="three" class="photoBox"></div>
-       <div id="four" class="photoBox"></div>
-    </div>
-  </div>
-   <div class="footer box">Footer</div>
-</div>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars">Sample</i></a></li>
+
+      </ul>
+    </nav>
   </body>
 
 </html>
